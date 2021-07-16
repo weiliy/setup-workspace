@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "2d78c9276144e3e3610632bb106ac0da3ab5e1b3"
+        "revision": "6522874a72b47c4ccb39460a7bf723a7f2f7e0e1"
       }
     },
     "brew": {
@@ -31,6 +31,11 @@
               "cellar": "/usr/local/Cellar",
               "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:a3c97ef87b6d7ba4a50365bd32348d57fbb28227c058f4591695ede8a9743ebc",
               "sha256": "a3c97ef87b6d7ba4a50365bd32348d57fbb28227c058f4591695ede8a9743ebc"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:4a4a9b77b5fc715a131b2332df38e64d906862a4b959a80a4e4b409e2f4206da",
+              "sha256": "4a4a9b77b5fc715a131b2332df38e64d906862a4b959a80a4e4b409e2f4206da"
             }
           }
         }
@@ -103,6 +108,18 @@
           }
         }
       }
+    },
+    "cask": {
+      "microsoft-edge": {
+        "version": "91.0.864.67",
+        "options": {
+          "full_name": "microsoft-edge",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      }
     }
   },
   "system": {
@@ -110,7 +127,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.2.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "6c944c9079d179dd3279b69eb8a0b9ae5bde9e20",
+        "Homebrew/homebrew-core": "f239747b41420e8ec9c6a9a6f9bfb900a5eea2ca",
         "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5",
         "macOS": "11.3.1"

@@ -1,0 +1,3 @@
+[submodule "tools/tmux"]
+	path = tools/tmux
+	url = git@github.com:weiliy/tmux-config.git
