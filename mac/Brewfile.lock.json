@@ -2,40 +2,40 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "6522874a72b47c4ccb39460a7bf723a7f2f7e0e1"
+        "revision": "857a1ee232f101ff30dab09aea62960fdc2fc5eb"
       }
     },
     "brew": {
       "imagemagick": {
-        "version": "7.1.0-2_1",
+        "version": "7.1.0-4_1",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_big_sur": {
               "cellar": "/opt/homebrew/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:a470a24f29e381360a002801386c6013fe8b272f2e8af6b962aefb3cd90052e2",
-              "sha256": "a470a24f29e381360a002801386c6013fe8b272f2e8af6b962aefb3cd90052e2"
+              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:25f2e330c6fafa9f72ee5434a78fe6907b37d491ce6a7898411c93da4b1ee288",
+              "sha256": "25f2e330c6fafa9f72ee5434a78fe6907b37d491ce6a7898411c93da4b1ee288"
             },
             "big_sur": {
               "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:81dc2d0a4b698004e170eda1888dd5ba20dc0e925b3a15ed8d219052e40bff09",
-              "sha256": "81dc2d0a4b698004e170eda1888dd5ba20dc0e925b3a15ed8d219052e40bff09"
+              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:5ff6e8ac4025e9d68a8da63d6ef32cca8a60d98b067e7ba4379b11dc12a63831",
+              "sha256": "5ff6e8ac4025e9d68a8da63d6ef32cca8a60d98b067e7ba4379b11dc12a63831"
             },
             "catalina": {
               "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:580774d0e2374075e78da44768ec8d8e461d128f7d18855325b518b324901611",
-              "sha256": "580774d0e2374075e78da44768ec8d8e461d128f7d18855325b518b324901611"
+              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:b9ee9e1ef0052706e83ca1ac52917ccb2f1742020376f6e15c5c47acd945dc45",
+              "sha256": "b9ee9e1ef0052706e83ca1ac52917ccb2f1742020376f6e15c5c47acd945dc45"
             },
             "mojave": {
               "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:a3c97ef87b6d7ba4a50365bd32348d57fbb28227c058f4591695ede8a9743ebc",
-              "sha256": "a3c97ef87b6d7ba4a50365bd32348d57fbb28227c058f4591695ede8a9743ebc"
+              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:3758e8ae8b5d2a10f167041a6930cc1bca24f4f0a98b66656baf909cf6dd8783",
+              "sha256": "3758e8ae8b5d2a10f167041a6930cc1bca24f4f0a98b66656baf909cf6dd8783"
             },
             "x86_64_linux": {
               "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:4a4a9b77b5fc715a131b2332df38e64d906862a4b959a80a4e4b409e2f4206da",
-              "sha256": "4a4a9b77b5fc715a131b2332df38e64d906862a4b959a80a4e4b409e2f4206da"
+              "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:69dcc87df9811cd3ca84c4d4f9157d2546a7b405b67e44aa45636976b6545ff9",
+              "sha256": "69dcc87df9811cd3ca84c4d4f9157d2546a7b405b67e44aa45636976b6545ff9"
             }
           }
         }
@@ -107,13 +107,37 @@
             }
           }
         }
+      },
+      "adr-tools": {
+        "version": "3.0.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/adr-tools/blobs/sha256:d485a50e9f6fb41e81d634818d96a37836816ac09d4dcd436a5ac5e43da98131",
+              "sha256": "d485a50e9f6fb41e81d634818d96a37836816ac09d4dcd436a5ac5e43da98131"
+            }
+          }
+        }
       }
     },
     "cask": {
       "microsoft-edge": {
-        "version": "91.0.864.67",
+        "version": "91.0.864.71",
         "options": {
           "full_name": "microsoft-edge",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "squirrel": {
+        "version": "0.15.2",
+        "options": {
+          "full_name": "squirrel",
           "args": {
             "appdir": "~/Applications",
             "require_sha": true
@@ -125,9 +149,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.2.2",
+        "HOMEBREW_VERSION": "3.2.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f239747b41420e8ec9c6a9a6f9bfb900a5eea2ca",
+        "Homebrew/homebrew-core": "2d9285f376ac22b7db19a6347dfacda76726b68f",
         "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5",
         "macOS": "11.3.1"

@@ -1,9 +1,11 @@
 tap "homebrew/cask"
 cask_args appdir: "~/Applications", require_sha: true
 
+brew "adr-tools"
 brew "imagemagick"
 brew "node"
 brew "tmux"
 
 cask "microsoft-edge"
+cask "squirrel"
 
