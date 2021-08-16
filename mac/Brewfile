@@ -5,6 +5,7 @@ brew "adr-tools"
 brew "imagemagick"
 brew "node"
 brew "tmux"
+brew "telnet"
 
 cask "microsoft-edge"
 cask "squirrel"
