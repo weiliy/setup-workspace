@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "5f91abb42a202b85c0d163d9d5c60285e8fe373a"
+        "revision": "1ea29cbd9f069ab46fa9422e66d3f02c0ce8f0ea"
       }
     },
     "brew": {
@@ -155,11 +155,45 @@
             }
           }
         }
+      },
+      "node@14": {
+        "version": "14.17.5",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:f8e622cf7d3ffeab8d39b39f6a63b716cb689dc63e6afda10fc58d7440b1ba8b",
+              "sha256": "f8e622cf7d3ffeab8d39b39f6a63b716cb689dc63e6afda10fc58d7440b1ba8b"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:d5a953dc4cb682a7e5c9a0d861ffeaf3d2daf949ca9ace201801661d26dee35d",
+              "sha256": "d5a953dc4cb682a7e5c9a0d861ffeaf3d2daf949ca9ace201801661d26dee35d"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:7c3d3b4fade5deb04bab318b0d571e522826fd5bec14400b6e16f56a02a341f5",
+              "sha256": "7c3d3b4fade5deb04bab318b0d571e522826fd5bec14400b6e16f56a02a341f5"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:6709ec56b0995de218aaf980b0fcf72612e896a0bc818760351d64a92c681dad",
+              "sha256": "6709ec56b0995de218aaf980b0fcf72612e896a0bc818760351d64a92c681dad"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:1e57f005b13ae5812d3de885e0458e54b47a47936fa1e7d2f235aad6606801cd",
+              "sha256": "1e57f005b13ae5812d3de885e0458e54b47a47936fa1e7d2f235aad6606801cd"
+            }
+          }
+        }
       }
     },
     "cask": {
       "microsoft-edge": {
-        "version": "92.0.902.67",
+        "version": "92.0.902.73",
         "options": {
           "full_name": "microsoft-edge",
           "args": {
@@ -185,7 +219,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.2.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a1ef4089277ef0c75218435a9df76e9a6f6538f0",
+        "Homebrew/homebrew-core": "5b0b70f24e3b382d9a071471b077b7ae1ef00142",
         "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5",
         "macOS": "11.3.1"

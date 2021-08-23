@@ -3,9 +3,10 @@ cask_args appdir: "~/Applications", require_sha: true
 
 brew "adr-tools"
 brew "imagemagick"
-brew "node"
+brew "node@14"
 brew "tmux"
 brew "telnet"
+brew "nvm"
 
 cask "microsoft-edge"
 cask "squirrel"
