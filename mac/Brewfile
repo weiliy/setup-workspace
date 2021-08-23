@@ -8,6 +8,9 @@ brew "tmux"
 brew "telnet"
 brew "nvm"
 
+tap "aws/tap"
+brew "awscli"
+
 cask "microsoft-edge"
 cask "squirrel"
 
