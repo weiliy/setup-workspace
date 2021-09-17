@@ -8,6 +8,9 @@ brew "tmux"
 brew "telnet"
 brew "nvm"
 
+brew "tree"
+brew "watch"
+
 tap "aws/tap"
 brew "awscli"
 
