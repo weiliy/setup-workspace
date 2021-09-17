@@ -1,4 +1,6 @@
-ADR_README = doc/adr/README.md
+ADR_README  = doc/adr/README.md
+OS 				 := $(shell uname -s)
+
 
 all: update-submodule install
 doc: adr
@@ -18,8 +20,12 @@ upgrade-submodule:
 install: install-mac install-tools
 
 install-mac:
+ifeq ($(OS), Darwin)
 	@echo Install Software
 	cd mac && brew bundle
+else
+	@echo skip.
+endif
 
 install-tools: update-submodule install-tool-zsh install-tool-tmux
 
@@ -27,4 +33,3 @@ install-tool-%:
 	@echo Config Tool $*
 	make -C ./tools/$*
 
-	
