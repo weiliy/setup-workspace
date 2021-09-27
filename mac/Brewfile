@@ -15,5 +15,7 @@ tap "aws/tap"
 brew "awscli"
 
 cask "microsoft-edge"
+cash "google-chrome"
+cask "firefox"
 cask "squirrel"
 
