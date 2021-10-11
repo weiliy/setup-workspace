@@ -17,15 +17,20 @@ update-submodule:
 upgrade-submodule:
 	git submodule update --remote --merge
 
+
+ifeq ($(OS), Darwin)
 install: install-mac install-tools
+else
+install: install-linux install-tools
+endif
+
+install-linux:
+	@echo Install Software for $(OS)
+	cd linux && ./install.sh
 
 install-mac:
-ifeq ($(OS), Darwin)
 	@echo Install Software
 	cd mac && brew bundle
-else
-	@echo skip.
-endif
 
 install-tools: update-submodule install-tool-zsh install-tool-tmux
 
