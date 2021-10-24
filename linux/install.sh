@@ -7,4 +7,9 @@ install_node() {
 	sudo apt-get install -y nodejs
 }
 
+install_rg() {
+  sudo apt-get install -y ripgrep
+}
+
 command -v node || install_node
+command -v rg || install_rg
