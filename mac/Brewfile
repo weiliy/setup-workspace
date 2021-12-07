@@ -3,10 +3,13 @@ cask_args appdir: "~/Applications", require_sha: true
 
 brew "adr-tools"
 brew "imagemagick"
-brew "node@14"
 brew "tmux"
 brew "telnet"
 brew "nvm"
+brew "rg"
+
+# encrypt/decrypt kvm tools
+brew "shush"
 
 brew "tree"
 brew "watch"
@@ -17,6 +20,3 @@ brew "awscli"
 cask "microsoft-edge"
 cask "firefox"
 cask "squirrel"
-
-cask "dbeaver-community", args: { appdir: "/Applications" }
-
