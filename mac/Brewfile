@@ -9,7 +9,7 @@ brew "nvm"
 brew "rg"
 
 # encrypt/decrypt kvm tools
-brew "shush"
+# brew "shush"
 
 brew "tree"
 brew "watch"
@@ -17,6 +17,8 @@ brew "watch"
 tap "aws/tap"
 brew "awscli"
 
-cask "microsoft-edge"
-cask "firefox"
-cask "squirrel"
+# cask "microsoft-edge"
+# cask "firefox"
+# cask "squirrel"
+
+cask "visual-studio-code"
