@@ -26,3 +26,7 @@ brew "awscli"
 cask "visual-studio-code"
 
 cask "squidman"
+cask "iterm2"
+
+tap "homebrew/cask-fonts"
+cask "font-jetbrains-mono"

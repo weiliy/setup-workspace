@@ -2,10 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "83192e94d4ad8e44c0235ed2bbaef1e3564bf1eb"
+        "revision": "ba5364b587c53fbc7a4b137afe7f144bd967af19"
       },
       "aws/tap": {
         "revision": "43edcc4ea8769d4a6f542b144bac876107dd7cf2"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "fc9d6b7491e2f63ee93db34684820f335e6758dc"
       }
     },
     "brew": {
@@ -532,6 +535,26 @@
         "version": "4.2",
         "options": {
           "full_name": "squidman",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "iterm2": {
+        "version": "3.4.18",
+        "options": {
+          "full_name": "iterm2",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "font-jetbrains-mono": {
+        "version": "2.242",
+        "options": {
+          "full_name": "font-jetbrains-mono",
           "args": {
             "appdir": "~/Applications",
             "require_sha": true
