@@ -8,6 +8,8 @@ brew "telnet"
 brew "nvm"
 brew "rg"
 
+brew "pnpm"
+
 # encrypt/decrypt kvm tools
 # brew "shush"
 
