@@ -9,6 +9,7 @@ brew "nvm"
 brew "rg"
 
 brew "pnpm"
+brew "lazydocker"
 
 # encrypt/decrypt kvm tools
 # brew "shush"
