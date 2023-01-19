@@ -31,3 +31,7 @@ cask "iterm2"
 
 tap "homebrew/cask-fonts"
 cask "font-jetbrains-mono"
+
+# For Haskell
+brew "llvm"
+brew "ghcup"
