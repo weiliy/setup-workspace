@@ -48,3 +48,6 @@ cask "1password/tap/1password-cli"
 
 tap "twilio/brew"
 brew "twilio"
+
+# Photo
+brew "argyll-cms"
