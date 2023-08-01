@@ -50,4 +50,7 @@ tap "twilio/brew"
 brew "twilio"
 
 # Photo
-brew "argyll-cms"
+# brew "argyll-cms"
+
+brew "pyenv"
+brew "python3"
