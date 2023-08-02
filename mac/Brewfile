@@ -54,3 +54,10 @@ brew "twilio"
 
 brew "pyenv"
 brew "python3"
+
+tap "adoptopenjdk/openjdk"
+cask "adoptopenjdk8"
+brew "postgresql@14"
+brew "maven@3.9"
+
+brew "gh"
