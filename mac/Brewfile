@@ -50,6 +50,9 @@ cask "1password/tap/1password-cli"
 # sync dotfiles
 brew "yadm"
 
+# edit
+brew "neovim"
+
 # User apps
 cask_args appdir: "~/Applications", require_sha: true
 cask "notion"
