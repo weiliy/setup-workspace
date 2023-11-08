@@ -55,9 +55,10 @@ brew "neovim"
 
 # User apps
 cask_args appdir: "~/Applications", require_sha: true
-cask "notion"
 # keycastr -- a keystorke visualizer
 cask "keycastr"
 
 # Python
 brew "pipenv"
+
+brew "httpie"
