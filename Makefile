@@ -30,7 +30,7 @@ install-linux:
 
 install-mac:
 	@echo Install Software
-	cd mac && brew bundle
+	cd mac && brew bundle && ./post-mac-install.sh
 
 install-tools: update-submodule install-tool-zsh install-tool-tmux
 
