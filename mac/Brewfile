@@ -1,4 +1,3 @@
-cask_args appdir: "~/Applications", require_sha: true
 
 brew "adr-tools"
 brew "imagemagick"
@@ -19,17 +18,21 @@ brew "watch"
 tap "aws/tap"
 brew "awscli"
 
-# cask "microsoft-edge"
-# cask "firefox"
+
+#:- APP installed only for user
+cask_args appdir: "~/Applications", require_sha: true
 # cask "squirrel"
-
 cask "brave-browser"
-
 cask "visual-studio-code"
-
 cask "squidman"
 cask "iterm2"
 
+#:- APPs installed for all user
+cask_args appdir: "/Applications", require_sha: true
+cask "microsoft-edge"
+cask "firefox"
+cask "1password"
+cask "1password/tap/1password-cli"
 tap "homebrew/cask-fonts"
 cask "font-jetbrains-mono"
 
@@ -38,10 +41,6 @@ cask "font-jetbrains-mono"
 # brew "ghcup"
 
 brew "jq"
-
-cask_args appdir: "/Applications", require_sha: true
-cask "1password"
-cask "1password/tap/1password-cli"
 
 # Dev Tools for GRPC
 # tap "twilio/brew"
