@@ -53,8 +53,8 @@ brew "twilio"
 brew "pyenv"
 brew "python3"
 
-tap "adoptopenjdk/openjdk"
-cask "adoptopenjdk8"
+# tap "adoptopenjdk/openjdk"
+# cask "adoptopenjdk8"
 brew "postgresql@14"
 brew "maven@3.9"
 
@@ -76,3 +76,5 @@ cask "divvy"
 brew "pipenv"
 
 brew "httpie"
+
+brew "gawk"
