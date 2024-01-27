@@ -36,6 +36,9 @@ cask "1password/tap/1password-cli"
 tap "homebrew/cask-fonts"
 cask "font-jetbrains-mono"
 
+# Virtual machines
+cask "utm"
+
 # For Haskell
 # brew "llvm@12"
 # brew "ghcup"
