@@ -52,8 +52,8 @@ brew "twilio"
 brew "pyenv"
 brew "python3"
 
-tap "adoptopenjdk/openjdk"
-cask "adoptopenjdk8"
+# tap "adoptopenjdk/openjdk"
+# cask "adoptopenjdk8"
 brew "postgresql@14"
 brew "maven@3.9"
 
@@ -69,8 +69,11 @@ brew "neovim"
 cask_args appdir: "~/Applications", require_sha: true
 # keycastr -- a keystorke visualizer
 cask "keycastr"
+cask "divvy"
 
 # Python
 brew "pipenv"
 
 brew "httpie"
+
+brew "gawk"
