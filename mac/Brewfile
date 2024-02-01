@@ -80,3 +80,6 @@ brew "pipenv"
 brew "httpie"
 
 brew "gawk"
+
+# GPG
+brew "gnupg"
