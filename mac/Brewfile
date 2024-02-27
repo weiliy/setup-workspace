@@ -83,3 +83,7 @@ brew "gawk"
 
 # GPG
 brew "gnupg"
+
+# DevOps Kits
+tap "hashicorp/tap"
+brew "hashicorp/tap/terraform"

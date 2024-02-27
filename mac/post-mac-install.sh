@@ -14,3 +14,11 @@ NVM_DIR="$HOME/.nvm"
 infocmp -x tmux-256color > /dev/null || \
   errcho 'No tmux-256-collor, plese install it'\
     'https://gist.github.com/bbqtd/a4ac060d6f6b9ea6fe3aabe735aa9d95'
+
+if command -v terraform  > /dev/null; then
+  if terraform -install-autocomplete 2> /dev/null; then
+    echo 'Terraform autocompletion installed'
+  else
+    echo 'Already installed Terraform autocompletion'
+  fi
+fi
