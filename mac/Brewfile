@@ -3,11 +3,14 @@ brew "adr-tools"
 brew "imagemagick"
 brew "tmux"
 brew "telnet"
-brew "nvm"
 brew "rg"
-
-brew "pnpm"
 brew "lazydocker"
+
+# Front-End Deveopment Tools
+brew "nvm"
+brew "yarn", args: ["ignore-dependencies"]
+brew "pnpm"
+
 
 # encrypt/decrypt kvm tools
 # brew "shush"
