@@ -97,6 +97,7 @@ brew "gnupg"
 tap "hashicorp/tap"
 brew "hashicorp/tap/terraform"
 brew "helm"
+brew "ansible"
 
 # 3D print
 cask_args appdir: "/Applications", require_sha: true
