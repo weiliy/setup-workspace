@@ -53,6 +53,7 @@ cask "utm"
 # For Rust
 brew "llvm"
 brew "jq"
+brew "yq"
 
 # Dev Tools for GRPC
 # tap "twilio/brew"
