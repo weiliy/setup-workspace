@@ -36,7 +36,7 @@ cask "microsoft-edge"
 cask "firefox"
 cask "1password"
 cask "1password/tap/1password-cli"
-tap "homebrew/cask-fonts"
+# tap "homebrew/cask-fonts"
 cask "font-jetbrains-mono"
 cask "chromedriver"
 
@@ -55,9 +55,6 @@ brew "llvm"
 brew "jq"
 brew "yq"
 
-# Dev Tools for GRPC
-# tap "twilio/brew"
-# brew "twilio"
 
 tap "twilio/brew"
 brew "twilio"
@@ -65,8 +62,6 @@ brew "twilio"
 brew "pyenv"
 brew "python3"
 
-# tap "adoptopenjdk/openjdk"
-# cask "adoptopenjdk8"
 brew "postgresql@14"
 brew "maven@3.9"
 
@@ -112,3 +107,6 @@ cask "anytype"
 cask_args appdir: "/Applications", require_sha: true
 cask "wireshark"
 
+# Vedio Editor
+cask_args appdir: "/Applications", require_sha: true
+cask "insta360-studio"
