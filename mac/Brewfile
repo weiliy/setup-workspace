@@ -62,7 +62,11 @@ brew "twilio"
 brew "pyenv"
 brew "python3"
 
+# Database 
 brew "postgresql@14"
+cask_args appdir: "/Applications", require_sha: true
+tap "redis-stack/redis-stack"
+cask "redis-stack"
 
 brew "gh"
 
@@ -109,3 +113,4 @@ cask "wireshark"
 # Vedio Editor
 cask_args appdir: "/Applications", require_sha: true
 cask "insta360-studio"
+
