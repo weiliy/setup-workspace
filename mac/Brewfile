@@ -41,7 +41,7 @@ cask "font-jetbrains-mono"
 cask "chromedriver"
 
 cask_args appdir: "/Applications", require_sha: true
-cask "google-chrome"
+# cask "google-chrome"
 
 # Virtual machines
 cask "utm"
