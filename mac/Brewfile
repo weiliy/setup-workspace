@@ -63,6 +63,7 @@ brew "pyenv"
 brew "python3"
 
 # Database 
+brew "sqlite3"
 brew "postgresql@15"
 cask_args appdir: "/Applications", require_sha: true
 tap "redis-stack/redis-stack"
