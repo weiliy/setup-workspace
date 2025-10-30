@@ -68,6 +68,7 @@ brew "postgresql@15"
 cask_args appdir: "/Applications", require_sha: true
 tap "redis-stack/redis-stack"
 cask "redis-stack"
+brew "valkey"
 
 brew "gh"
 
